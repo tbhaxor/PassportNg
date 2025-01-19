@@ -1,0 +1,23 @@
+{
+  "name": "passport-ng",
+  "version": "1.0.0",
+  "description": "Passport-NG is a TypeScript-first authentication middleware offering simplicity, flexibility, and seamless environment variable configuration for modern web applications.",
+  "author": {
+    "url": "https://tbhaxor.com",
+    "email": "info@tbhaxor.com",
+    "name": "Gurkirat Singh"
+  },
+  "private": true,
+  "scripts": {
+    "lint": "prettier --check packages/**/*.ts && eslint packages/**/*.ts",
+    "build": "pnpm -r --stream build"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.1",
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "typescript-eslint": "^8.20.0"
+  }
+}
